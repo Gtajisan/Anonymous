@@ -1,9 +1,8 @@
 # Anonymous
 ### Facebook clone
 This is The latest Script For Facebook id clone with your Termux. Download any # FARHAN-MUH-TASIM
-#### Termux-YouTube-Downloader
-This is The latest Script For Downloading Youtube Videos with your Termux. fb any clone Video in 2 Clicks.
-clne easy  any video copy link past with termux
+#### fb cloning 
+This is The latest Script For for fb account cloning 
 <p align="center">
   <img alt="Smiley face" src="https://i.postimg.cc/jj8P1s6k/Screenshot-20231113-000929-Termux.png">
 </p>
@@ -35,8 +34,8 @@ To check for updates and update, run the following command:
 ### Installation one line:
 
 ```
-apt update && apt upgrade && cd && pkg install git -y && git clone https://github.com/Gtajisan/FARHAN-MUH-TASIM/ && cd FARHAN-MUH-TASIM && ls &&
-python termux-url-opener.txt 
+apt update && apt upgrade && cd && pkg install git -y && git clone https://github.com/rafsanmahi15/Anonymous && cd Anonymous && ls &&
+Anonymous.py
 
 ```
 
@@ -47,11 +46,11 @@ python termux-url-opener.txt
  ```
 **Getting FARHAN-MUH-TASUM**
  ```
- git clone https://github.com/Gtajisan/FARHAN-MUH-TASIM
+ git clone https://github.com/rafsanmahi15/Anonymous
  ```
  **Running**
  ```
- cd FARHAN-MUH-TASIM && ls && python termux-url-opener.txt 
+ cd Anonymous && ls && python Anonymous.py 
 
  ```
 ### Features:
