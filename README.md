@@ -1,6 +1,6 @@
 # Anonymous
 ### Facebook clone
-This is The latest Script For Facebook id clone with your Termux. Download any # FARHAN-MUH-TASIM
+This is The latest Script For Facebook id clone with your Termux. clone fb id *😬🗿*
 #### fb cloning 
 This is The latest Script For for fb account cloning 
 <p align="center">
@@ -55,9 +55,9 @@ Anonymous.py
  ```
 ### Features:
 - See The Downloading Process.
-- Download any Video in Just 2 Click.
-- Select the Quality Of your Video.
-- Downlaod Mp3 Version of the Video.
+- clone any id Just 2 Click.
+- Select the thes account .
+- unlimited fb id.
 
 <br>
 <br>
