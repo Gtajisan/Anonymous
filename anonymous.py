@@ -1,4 +1,4 @@
-# Decompile by KangEhem:)
+# Decompile by FARHAN-MUH-TASIM:)
 # with (uncompyle6) version : 3.7.4
 # Time Succes decompile : 2022-09-07 08:13:36.727454
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
@@ -53,31 +53,28 @@ S='\033[1;96m'
 P='\033[1;95m'
 Y='\033[1;93m'
 logo = """
-\033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;92m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;93m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;94m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-*_ꙮ⃢▄▆▇█�⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢�⃢✿⁍⃢🇪⃢⁌✿⃢��█▇▆▄⃢ꙮ_*
-\033[1;91m        █▀▄▀█ █▀▀█ █▀▀ ░▀░ █▀▀█
-\033[1;93m        █░▀░█ █▄▄█ █▀▀ ▀█▀ █▄▄█
-\033[1;92m        ▀░░░▀ ▀░░▀ ▀░░ ▀▀▀ ▀░░▀
-\033[1;97m        █░█ ░▀░ █░░ █░░ █▀▀ █▀▀█
-\033[1;96m        █▀▄ ▀█▀ █░░ █░░ █▀▀ █▄▄▀
-\033[1;95m        ▀░▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀░▀▀
-\033[1;95m ____   __    __    _   _    __   
-\033[1;95m(_  _) /__\  (  )  ( )_( )  /__\  
- \033[1;95m )(  /(__)\  )(__  ) _ (  /(__)\ 
- \033[1;95m(__)(__)(__)(____)(_) (_)(__)(__)
-*_ꙮ⃢▄▆▇█�⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢�⃢✿⁍⃢🇪⃢⁌✿⃢��█▇▆▄⃢ꙮ_*
-\033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;92m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;93m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-\033[1;94m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+███████╗██████╗░███╗░░██╗░░░░░░░██╗░░░░░░░██╗██╗███████╗██╗
+██╔════╝██╔══██╗████╗░██║░░░░░░░██║░░██╗░░██║██║██╔════╝██║
+█████╗░░██████╔╝██╔██╗██║█████╗░╚██╗████╗██╔╝██║█████╗░░██║
+██╔══╝░░██╔══██╗██║╚████║╚════╝░░████╔═████║░██║██╔══╝░░██║
+██║░░░░░██║░░██║██║░╚███║░░░░░░░░╚██╔╝░╚██╔╝░██║██║░░░░░██║
+╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝░░░░░░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝\033[1;36m2.O
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ \033[1;37mOwner   :            FARHAN MUH TASIM
+ \033[1;37mFacebook:            FARHAN MUH TASIM
+ \033[1;37mGithub  :            gtajisan X me
+ \033[1;37mWhatsapp:            +880130505723*
+ \033[1;31mTOOL INF: Facebook Cloning 
+
+ \033[1;31mFor Help : FB-AND-TELEGRAM
+
+ \033[1;31mNote    :       FB Cloning 
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;32m
 💕🍃🌹🍃💕
 💕.•°``°•.¸.•°``°•.💕
    (   🍃 🌹 🍃   ) 💕
  💕`•.¸   💗   ¸.•` 💕 
-     💕° •.¸¸.•° 💕   MAFIA-KILLER-Talha☕
+     💕° •.¸¸.•° 💕   MAFIA-KILLER-FAHAN☕
            💕💕         BE HAPPY 🍃🌻🍃
              💕     💕🍃🌹🍃💕  .💘
                     💕.•°``°•.¸.•°``°•.💕
@@ -88,9 +85,9 @@ logo = """
                                   💕         
 """
 logo2 = """
-\x1b[1;92m➣ NAME :           💗 TALHA ISLAM 💗
-\x1b[1;91m➣ PGE NAME :  💣TERMUX TEACHER TALHA💣
-\x1b[1;93m➣ WHATSAPP NO :   👬 +8801304002896 👬
+\x1b[1;92m➣ NAME :           💗 FARHAN MUH TASIM 💗
+\x1b[1;91m➣ PGE NAME :  💣FARHAN-TECH####/##💣
+\x1b[1;93m➣ WHATSAPP NO :   👬 +880130505723* 👬
 \x1b[1;95m➣ WARNING :  👉 DON,T CALL ME ONLY TEXT🔫
 \x1b[1;96m➣ CLONING COUNTRY NAME :  BANGLADESH
 \x1b[1;97m➣ NOTE :      💕USE 4GB YA 6GB RAM MOBILE💕
@@ -135,7 +132,7 @@ def login():
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;96m💖━━━━━━━━━💘💘💘(MAFIA-KILLER-TALHA)💘💘💘━━━━━━━━💖\n" 
+	print "\033[1;96m💖━━━━━━━━━💘💘💘(MAFIA-KILLER-FARHAN)💘💘💘━━━━━━━━💖\n" 
 	print '\033[1;97m[1]\033[1;92m GP'
 	print '\033[1;97m[2]\033[1;92m Robi'
 	print '\033[1;97m[3]\033[1;92m Airtel'
@@ -143,7 +140,7 @@ def menu():
 	print '\033[1;97m[5]\033[1;92m Teletalk'
 	print '\033[1;97m[6]\033[1;92m Youtube'
 	print '\033[1;97m[0]\033[1;92m Exit            '
-	print "\033[1;96m💖━━━━━━━━━💘💘💘(MAFIA-KILLER-TALHA)💘💘💘━━━━━━━━💖\n" 
+	print "\033[1;96m💖━━━━━━━━━💘💘💘(MAFIA-KILLER-FARHAN)💘💘💘━━━━━━━━💖\n" 
 	action()
 	
 def action():
@@ -222,7 +219,7 @@ def action():
 			raw_input("\n[ Back ]")
 			menu()
 	elif ahmad =="6":		
-		os.system('xdg-open https://youtube.com/c/TalhaTechnologychannel')
+		os.system('xdg-open https://youtube.com/@zerox-farhan?si=ePIXHP6rWYWa3KPH')
 		login()
 	elif ahmad =='0':
 		exb()
@@ -236,7 +233,7 @@ def action():
 	time.sleep(0.5)
 	psb ('[!] To Stop Process Press CTRL+z')
 	time.sleep(0.5)
-	print "\033[1;96m💖━━━━━━━━━━💘💘💘(MAFIA-KILLER-Talha)💘💘💘━━━━━━━━━💖\n" 
+	print "\033[1;96m💖━━━━━━━━━━💘💘💘FARHAN💘💘💘━━━━━━━━━💖\n" 
 	
 	
 			
@@ -321,7 +318,7 @@ def action():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;96m💖━━━━━━━━━━━━💘💘💘(MAFIA-KILLER-Talha)💘💘💘━━━━━━━━━━━💖" 
+	print "\033[1;96m💖━━━━━━━━━━━━💘💘💘(MAFIA-KILLER-FARHAN)💘💘💘━━━━━━━━━━━💖" 
 	print '[✓] Process Has Been Completed ....'
 	print '[✓] Total OK/CP : '+str(len(successfull))+'/'+str(len(checkpoint))
 	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
